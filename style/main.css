@@ -20,19 +20,14 @@
 
     padding: 0 5px;
 }
-.movie_info span:nth-child(2) {
-    border-right: 1px solid #fff;
-    border-left: 1px solid #fff;
-}
 .movie_name {
     width: 100%;
-    max-width: 575px;
-    height: auto;
+    height: 80px;
 }
 .movie_name h1 {
     color: var(--white);
     font-family: 'Karla', sans-serif;
-    font-size: 75px;
+    font-size: 68px;
     font-weight: 800;
 
     letter-spacing: -2px;
@@ -40,8 +35,8 @@
 }
 .movie_description {
     width: 100%;
-    max-width: 750px;
-    height: auto;
+    max-width: 700px;
+    height: 100px;
 
     margin-bottom: 20px;
 }
@@ -52,6 +47,11 @@
     font-weight: 300;
 
     text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
 }
 .movie_rating {
     width: 100%;
