@@ -26,18 +26,18 @@
     width: 100%;
     height: auto;
 }
-.content ul {
+#list_card_movie {
     width: 100%;
     height: auto;
 
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
 
     column-gap: 20px;
     list-style: none;
 }
-.content ul li {
+#card_movie {
     width: 200px;
     height: 280px;
 
@@ -47,6 +47,11 @@
     background-size: cover;
 
     border-radius: 10px;
+    cursor: pointer;
+    transition: transform ease-in-out 0.25s;
+}
+#card_movie:hover {
+    transform: scale(1.05);
 }
 
 
@@ -56,7 +61,7 @@
     height: auto;
 }
 .last_section {
-    padding: 70px 50px 0 50px;
+    padding: 50px;
 }
 .title__last_section {
     width: 100%;
@@ -80,18 +85,18 @@
     width: 100%;
     height: auto;
 }
-.content__last_section ul {
+#list_card_tv {
     width: 100%;
     height: auto;
 
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
 
     column-gap: 20px;
     list-style: none;
 }
-.content__last_section ul li {
+#card_tv {
     position: relative;
 
     width: 340px;
@@ -103,6 +108,11 @@
     background-size: cover;
 
     border-radius: 10px;
+    cursor: pointer;
+    transition: transform ease-in-out 0.25s;
+}
+#card_tv:hover {
+    transform: scale(1.05);
 }
 .content__card {
     position: absolute;
@@ -113,25 +123,25 @@
 
     display: flex;
     flex-direction: column;
-    align-items: baseline;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-end;
 
     border-radius: var(--cardBorder);
     backdrop-filter: var(--cardFilter);
     background: var(--cardBG);
-    padding: 15px;
+    padding: 0 0 10px 15px;
 }
-.card h1 {
+.content__card h1 {
     color: var(--white);
     font-family: 'Karla', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
 
     letter-spacing: -0.5px;
 }
-.card span {
+.content__card span {
     color: var(--white);
     font-family: 'Karla', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 300;
 }
