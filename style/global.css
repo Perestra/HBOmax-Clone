@@ -18,12 +18,12 @@
 
     --navText: rgba(255, 255, 255, 0.8);
     --navbarBG: rgba(0, 0, 0, 0.4);
-    --navbarFilter: blur(1rem);
-    --navbarBorder: 2rem;
+    --navbarFilter: blur(10px);
+    --navbarBorder: 25px;
 
     --cardBG: rgba(0, 0, 0, 0.15);
-    --cardFilter: blur(2rem);
-    --cardBorder: 0 0 1rem 1rem;
+    --cardFilter: blur(20px);
+    --cardBorder: 0 0 10px 10px;
 }
 
 .global__container {
@@ -38,4 +38,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    padding: 40px 50px 0px 50px;
 }
