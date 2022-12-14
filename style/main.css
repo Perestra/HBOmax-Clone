@@ -1,0 +1,117 @@
+
+
+.main__container {
+    width: 100%;
+    height: auto;
+
+    margin: 60px 0;
+}
+.movie_info {
+    width: 100%;
+    height: auto;
+
+    margin-bottom: 5px;
+}
+.movie_info span {
+    color: var(--white);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+
+    padding: 0 5px;
+}
+.movie_info span:nth-child(2) {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+.movie_name {
+    width: 100%;
+    max-width: 575px;
+    height: auto;
+}
+.movie_name h1 {
+    color: var(--white);
+    font-family: 'Karla', sans-serif;
+    font-size: 75px;
+    font-weight: 800;
+
+    letter-spacing: -2px;
+    text-transform: uppercase;
+}
+.movie_description {
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+
+    margin-bottom: 20px;
+}
+.movie_description h3 {
+    color: var(--white);
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+
+    text-align: justify;
+}
+.movie_rating {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    column-gap: 15px;
+    margin-bottom: 30px;
+}
+.logo_imdb {
+    width: 53px;
+    height: 27px;
+
+    background-image: url(/assets/imdb.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.movie_rating span {
+    color: var(--white);
+    font-family: 'Karla', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+}
+.movie_button {
+    width: 160px;
+    height: 54px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    column-gap: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--white);
+
+    cursor: pointer;
+    background: none;
+    outline: none;
+
+    transition: background-color ease-in-out 0.2s;
+}
+.play_icon {
+    width: 20px;
+    height: 20px;
+
+    background-image: url(/assets/play-button.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.movie_button span {
+    color: var(--white);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+.movie_button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}

@@ -2,6 +2,7 @@
 @import url(/style/header.css);
 @import url(/style/main.css);
 @import url(/style/section.css);
+@import url(/style/footer.css);
 
 
 * {
@@ -15,6 +16,7 @@
     --colorBorder: rgba(255, 255, 255, 0.1);
 
     --bgGradient: linear-gradient(180deg, rgba(196, 196, 196, 0) 5%, rgba(0, 0, 0, 0) 0.01%, #0B0A0A 97%);
+    --bgBodyGradient: linear-gradient(0deg, #17161B 5.45%, #1E1E20 100%);
 
     --navText: rgba(255, 255, 255, 0.8);
     --navbarBG: rgba(0, 0, 0, 0.4);
@@ -22,22 +24,24 @@
     --navbarBorder: 25px;
 
     --cardBG: rgba(0, 0, 0, 0.15);
-    --cardFilter: blur(20px);
+    --cardFilter: blur(10px);
     --cardBorder: 0 0 10px 10px;
 }
 
 .global__container {
     width: 100%;
     height: auto;
+
+    background-color: #0A0A0A;
 }
 .container {
     width: 100%;
     height: 100vh;
 
-    background-image: url(/assets/bg.jpg);
+    background: var(--bgGradient), url(/assets/bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
-    padding: 40px 50px 0px 50px;
+    padding: 40px 50px 0 50px;
 }

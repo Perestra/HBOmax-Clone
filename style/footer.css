@@ -1,0 +1,19 @@
+
+
+.footer__container {
+    width: 100%;
+    height: auto;
+}
+.developed {
+    width: 100%;
+    height: auto;
+
+    padding: 20px;
+    text-align: center;
+}
+.developed p {
+    color: var(--white);
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}

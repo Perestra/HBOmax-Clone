@@ -1,0 +1,137 @@
+
+
+.section__container {
+    width: 100%;
+    height: auto;
+}
+.title__section {
+    width: 100%;
+    height: auto;
+
+    margin-bottom: 20px;
+}
+.title__section h1 {
+    color: var(--white);
+    font-family: 'Karla', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+
+    letter-spacing: -0.5px;
+}
+.container_content__section {
+    width: 100%;
+    height: auto;
+}
+.content {
+    width: 100%;
+    height: auto;
+}
+.content ul {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    column-gap: 20px;
+    list-style: none;
+}
+.content ul li {
+    width: 200px;
+    height: 280px;
+
+    background: url(/assets/bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 10px;
+}
+
+
+
+.last_section__container {
+    width: 100%;
+    height: auto;
+}
+.last_section {
+    padding: 70px 50px 0 50px;
+}
+.title__last_section {
+    width: 100%;
+    height: auto;
+
+    margin-bottom: 20px;
+}
+.title__last_section h1 {
+    color: var(--white);
+    font-family: 'Karla', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+
+    letter-spacing: -0.5px;
+}
+.container_content__last_section {
+    width: 100%;
+    height: auto;
+}
+.content__last_section {
+    width: 100%;
+    height: auto;
+}
+.content__last_section ul {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    column-gap: 20px;
+    list-style: none;
+}
+.content__last_section ul li {
+    position: relative;
+
+    width: 340px;
+    height: 250px;
+
+    background: url(/assets/bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 10px;
+}
+.content__card {
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    height: 90px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+
+    border-radius: var(--cardBorder);
+    backdrop-filter: var(--cardFilter);
+    background: var(--cardBG);
+    padding: 15px;
+}
+.card h1 {
+    color: var(--white);
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+
+    letter-spacing: -0.5px;
+}
+.card span {
+    color: var(--white);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
