@@ -1,0 +1,61 @@
+
+
+.header__container {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px 30px;
+
+    border-radius: var(--navbarBorder);
+    background: var(--navbarBG);
+    backdrop-filter: var(--navbarFilter);
+}
+.logo__header {
+    width: 133px;
+    height: 22px;
+
+    background-image: url(/assets/hbomax-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.nav__header {
+    width: 100%;
+    height: auto;
+}
+.nav__header ul {
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    column-gap: 50px;
+    list-style: none;
+}
+.nav__header ul li {
+    color: var(--navText);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+
+    cursor: pointer;
+    transition: color ease-in-out 0.2s;
+}
+.nav__header ul li:hover {
+    color: var(--white);
+}
+.user__header {
+    width: 46px;
+    height: 46px;
+
+    background-image: url(/assets/perfil.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
