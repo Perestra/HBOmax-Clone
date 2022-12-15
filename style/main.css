@@ -40,7 +40,7 @@
 
     margin-bottom: 20px;
 }
-.movie_description h3 {
+.movie_description p {
     color: var(--white);
     font-family: 'Karla', sans-serif;
     font-size: 18px;
