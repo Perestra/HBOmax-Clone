@@ -7,8 +7,6 @@
 .title__section {
     width: 100%;
     height: auto;
-
-    margin-bottom: 20px;
 }
 .title__section h1 {
     color: var(--white);
@@ -23,17 +21,18 @@
     height: auto;
 }
 .content {
-    width: 100%;
-    height: auto;
-}
-#list_card_movie {
-    width: 100%;
-    height: auto;
+    width: 1800px;
+    height: 340px;
 
     display: flex;
     align-items: center;
+    overflow: scroll hidden;
+}
+#list_card_movie {
+    display: flex;
     justify-content: space-between;
 
+    padding: 0 15px;
     column-gap: 20px;
     list-style: none;
 }
@@ -66,8 +65,6 @@
 .title__last_section {
     width: 100%;
     height: auto;
-
-    margin-bottom: 20px;
 }
 .title__last_section h1 {
     color: var(--white);
@@ -82,25 +79,27 @@
     height: auto;
 }
 .content__last_section {
-    width: 100%;
-    height: auto;
+    width: 1800px;
+    height: 340px;
+
+    display: flex;
+    align-items: center;
+    overflow: scroll hidden;
 }
 #list_card_tv {
-    width: 100%;
-    height: auto;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
 
+    padding: 0 15px;
     column-gap: 20px;
     list-style: none;
 }
 #card_tv {
     position: relative;
 
-    width: 340px;
-    height: 250px;
+    width: 280px;
+    height: 280px;
 
     background: url(/assets/bg2.jpg);
     background-position: center;
@@ -144,4 +143,45 @@
     font-family: 'Karla', sans-serif;
     font-size: 15px;
     font-weight: 300;
+}
+
+
+
+.content::-webkit-scrollbar {
+    width: 10px;
+}
+.content::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    background-clip: padding-box;
+    border: 5px solid transparent;
+    border-radius: 8px;  
+    box-shadow: none;
+    min-height: 50px;
+ }
+.content::-webkit-scrollbar-thumb {
+    background: #dededecc;
+    background-clip: padding-box;
+    border: 5px solid transparent;
+    border-radius: 8px;  
+    box-shadow: none;
+    min-height: 50px;
+}
+.content__last_section::-webkit-scrollbar {
+    width: 10px;
+}
+.content__last_section::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    background-clip: padding-box;
+    border: 5px solid transparent;
+    border-radius: 8px;  
+    box-shadow: none;
+    min-height: 50px;
+ }
+.content__last_section::-webkit-scrollbar-thumb {
+    background: #dededecc;
+    background-clip: padding-box;
+    border: 5px solid transparent;
+    border-radius: 8px;  
+    box-shadow: none;
+    min-height: 50px;
 }
