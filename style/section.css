@@ -19,6 +19,8 @@
 .container_content__section {
     width: 100%;
     height: auto;
+
+    overflow: scroll hidden;
 }
 .content {
     width: 1800px;
@@ -26,7 +28,6 @@
 
     display: flex;
     align-items: center;
-    overflow: scroll hidden;
 }
 #list_card_movie {
     display: flex;
@@ -77,6 +78,8 @@
 .container_content__last_section {
     width: 100%;
     height: auto;
+
+    overflow: scroll hidden;
 }
 .content__last_section {
     width: 1800px;
@@ -84,7 +87,6 @@
 
     display: flex;
     align-items: center;
-    overflow: scroll hidden;
 }
 #list_card_tv {
     display: flex;
@@ -147,10 +149,10 @@
 
 
 
-.content::-webkit-scrollbar {
+.container_content__section::-webkit-scrollbar {
     width: 10px;
 }
-.content::-webkit-scrollbar-track {
+.container_content__section::-webkit-scrollbar-track {
     background: rgba(255, 255, 255, 0.1);
     background-clip: padding-box;
     border: 5px solid transparent;
@@ -158,7 +160,7 @@
     box-shadow: none;
     min-height: 50px;
  }
-.content::-webkit-scrollbar-thumb {
+.container_content__section::-webkit-scrollbar-thumb {
     background: #dededecc;
     background-clip: padding-box;
     border: 5px solid transparent;
@@ -166,10 +168,10 @@
     box-shadow: none;
     min-height: 50px;
 }
-.content__last_section::-webkit-scrollbar {
+.container_content__last_section::-webkit-scrollbar {
     width: 10px;
 }
-.content__last_section::-webkit-scrollbar-track {
+.container_content__last_section::-webkit-scrollbar-track {
     background: rgba(255, 255, 255, 0.1);
     background-clip: padding-box;
     border: 5px solid transparent;
@@ -177,7 +179,7 @@
     box-shadow: none;
     min-height: 50px;
  }
-.content__last_section::-webkit-scrollbar-thumb {
+.container_content__last_section::-webkit-scrollbar-thumb {
     background: #dededecc;
     background-clip: padding-box;
     border: 5px solid transparent;
