@@ -32,7 +32,6 @@
     height: auto;
     
     display: flex;
-    align-items: center;
     justify-content: center;
 
     column-gap: 50px;
@@ -51,8 +50,8 @@
     color: var(--white);
 }
 .user__header {
-    width: 46px;
-    height: 46px;
+    width: 60px;
+    height: 60px;
 
     background-image: url(/assets/perfil.png);
     background-position: center;
