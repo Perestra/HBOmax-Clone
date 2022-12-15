@@ -122,7 +122,7 @@ async function setSerie(serieId) {
         name.innerText = serie.name
         movieName.appendChild(name)
 
-        const description = document.createElement('h3')
+        const description = document.createElement('p')
         description.innerText = serie.overview
         movieDescription.appendChild(description)
 
