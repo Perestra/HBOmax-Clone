@@ -26,8 +26,6 @@
 
         display: none;
     }
-    .nav__header ul li {
-    }
 }
 
 @media (max-width: 790px) {
