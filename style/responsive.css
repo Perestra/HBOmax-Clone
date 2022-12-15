@@ -1,0 +1,144 @@
+
+@media (min-width: 791px) {
+    .container {
+        width: 100%;
+        height: auto;
+    
+        padding: 40px 50px 0 50px;
+    }
+}
+
+@media (max-width: 790px) {
+    .header__container {
+        padding: 10px 15px;
+    }
+    .nav__header ul {
+        position: fixed;
+        top: -20px;
+        left: 148px;
+
+        width: 220px;
+        height: 100vh;
+
+        flex-direction: column;
+        row-gap: 50px;
+        background: var(--bgBodyGradient);
+
+        display: none;
+    }
+    .nav__header ul li {
+    }
+}
+
+@media (max-width: 790px) {
+    .container {
+        width: 100%;
+        height: auto;
+    
+        padding: 20px 15px 0 15px;
+    }
+    .main__container {
+        margin: 30px 0;
+    }
+    .movie_info span {
+        font-size: 10px;
+    }
+    .movie_name {
+        height: auto;
+        margin-bottom: 5px;
+    }
+    .movie_name h1 {
+        font-size: 18px;
+        letter-spacing: -1px;
+    }
+    .movie_description {
+       height: 60px;
+       margin-bottom: 10px;
+    }
+    .movie_description h3 {
+        font-size: 12px;
+    }
+    .logo_imdb {
+        width: 33px;
+        height: 24px;
+    }
+    .movie_rating {
+        margin-bottom: 15px;
+    }
+    .movie_rating span {
+        font-size: 16px;
+    }
+    .movie_button {
+        width: 100px;
+        height: 30px;
+    }
+    .play_icon {
+        width: 15px;
+        height: 15px;
+    }
+    .movie_button span {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 790px) {
+    .title__section h1, .title__last_section h1 {
+        font-size: 20px;
+    }
+    .content {
+        width: auto;
+        height: 200px;
+    }
+    #list_card_movie {
+        padding: 0 5px;
+    }
+    #card_movie {
+        width: 120px;
+        height: 160px;
+    }
+    .last_section {
+        padding: 40px 15px;
+    }
+    .content__last_section {
+        width: auto;
+        height: 200px;
+    }
+    #list_card_tv {
+        padding: 0 5px;
+    }
+    #card_tv {
+        width: 160px;
+        height: 160px;
+    }
+    .content__card {
+        height: 60px;
+        padding: 0 0 7px 10px;
+    }
+    .content__card h1 {
+        font-size: 13px;
+    }
+    .content__card span {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 790px) {
+    .footer__container {
+        padding: 20px;
+    }
+    .about__footer p {
+        font-size: 12px;
+    }
+    .legal__footer p {
+        font-size: 10px;
+    }
+    .developed__footer {
+        margin-top: 20px;
+    }
+    .developed__footer p {
+        font-size: 12px;
+    }
+    .fa-brands {
+        font-size: 16px;
+    }
+}
