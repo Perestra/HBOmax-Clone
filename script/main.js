@@ -60,7 +60,7 @@ async function setMovie(movieId) {
         name.innerText = movie.title
         movieName.appendChild(name)
 
-        const description = document.createElement('h3')
+        const description = document.createElement('p')
         description.innerText = movie.overview
         movieDescription.appendChild(description)
 
