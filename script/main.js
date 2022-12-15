@@ -4,8 +4,8 @@ const API_KEY = '875eb7acef457f17217538c2f06f2cec';
 const LANGUAGE = 'pt-BR';
 const POSTER_PATH = 'https://www.themoviedb.org/t/p/original';
 const BACKDROP_PATH = 'https://image.tmdb.org/t/p/original'
-const MOVIES_ID = ['526896', '335787', '438631', '414906', '157336', '577922', '475557', '281957']
-const SERIES_ID = ['94997', '110492', '1399', '87108', '85552']
+const MOVIES_ID = ['526896', '335787', '438631', '414906', '157336', '577922', '475557', '281957', '634649', '425909', '718930', '614934', '464052', '379686']
+const SERIES_ID = ['94997', '110492', '1399', '87108', '85552', '63247', '65555', '76331', '79501', '82428', '68507']
 
 const mainContainer = document.querySelector('.main__container')
 const container = document.querySelector('.container')
