@@ -54,7 +54,7 @@
     .movie_info span {
         font-size: 13px;
     }
-    .movie_name { 
+    .movie_name {
         height: auto;
         margin-bottom: 5px;
     }
@@ -63,16 +63,17 @@
         letter-spacing: -1px;
     }
     .movie_description {
-       height: 60px;
+        height: 70px;
+        margin-bottom: 15px;
     }
-    .movie_description h3 {
+    .movie_description p {
         font-size: 14px;
-    }
-    .logo_imdb {
-        width: 44px;
     }
     .movie_rating {
         margin-bottom: 15px;
+    }
+    .logo_imdb {
+        width: 44px;
     }
     .movie_rating span {
         font-size: 20px;
